@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div id="question-container" class="hide">
+        <h2 id="question">Question</h2>
+        <div id="answer-buttons" class="btn-grid">
+          <!-- Answer buttons will be generated here by JavaScript -->
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+        <button id="restart-btn" class="restart-btn btn hide">Restart</button>
+      </div>
+      <div id="score-display" class="score-container hide">
+        <h2>Your Score: <span id="score">0</span></h2>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
